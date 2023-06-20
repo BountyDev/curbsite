@@ -223,6 +223,10 @@ a {
 }
 
 @media (max-width: 767px) {
+  body {
+    overflow-x: hidden;
+  }
+
   .rounded-square,
   .infos,
   .signup {
@@ -231,16 +235,32 @@ a {
   }
 
   .infos {
-    height: 250px;
-    bottom: 60px;
-  }
-
-  .signup {
     height: 300px;
     bottom: 60px;
   }
 
-  .signup input[type="submit"] {
-    width: 80%;
+  .signup {
+    height: 350px;
+    bottom: 60px;
+  }
+}
+
+@media (max-width: 480px) {
+  .rounded-square,
+  .infos,
+  .signup {
+    width: 100%;
+    margin-left: 0;
+    border-width: 10px;
+  }
+
+  .infos {
+    height: auto;
+    bottom: 30px;
+  }
+
+  .signup {
+    height: auto;
+    bottom: 30px;
   }
 }
