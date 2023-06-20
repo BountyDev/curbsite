@@ -12,10 +12,8 @@ body {
   height: 100vh; /* Set the body height to 100% of the viewport height */
 }
 
-
 html {
   scroll-behavior: smooth;
-  overflow-x: hidden;
 }
 
 @font-face {
@@ -126,18 +124,18 @@ a {
 }
 
 .signup {
-    margin-top: 5%;
-    position: relative;
-    width: 650px;
-    height: 250px;
-    margin-left: 33%;
-    bottom: 120px;
-    background-color: rgb(91, 93, 112);
-    border-style: solid;
-    border-radius: 30px;
-    border-width: 20px;
-    border-color: rgb(40, 45, 60);
-    display: none; /* Initially hidden */
+  margin-top: 5%;
+  position: relative;
+  width: 650px;
+  height: 250px;
+  margin-left: 33%;
+  bottom: 120px;
+  background-color: rgb(91, 93, 112);
+  border-style: solid;
+  border-radius: 30px;
+  border-width: 20px;
+  border-color: rgb(40, 45, 60);
+  display: none; /* Initially hidden */
 }
 
 .toggleButton {
@@ -219,6 +217,30 @@ a {
   font-size: clamp(0em, 8vw, 1.5em);
   margin-top: 1%;
 }
+
 .prefoot {
   height: 200px;
+}
+
+@media (max-width: 767px) {
+  .rounded-square,
+  .infos,
+  .signup {
+    width: 90%;
+    margin-left: 5%;
+  }
+
+  .infos {
+    height: 250px;
+    bottom: 60px;
+  }
+
+  .signup {
+    height: 300px;
+    bottom: 60px;
+  }
+
+  .signup input[type="submit"] {
+    width: 80%;
+  }
 }
