@@ -219,6 +219,7 @@ a {
   .signup {
     width: 90%;
     margin-left: 5%;
+    margin-right: 5%; /* Add margin to both left and right sides */
   }
 
   .infos {
@@ -233,11 +234,11 @@ a {
 }
 
 @media (max-width: 480px) {
-  .rounded-square,
   .infos,
   .signup {
     width: 100%;
     margin-left: 0;
+    margin-right: 0; /* Remove left and right margin */
     border-width: 10px;
   }
 
