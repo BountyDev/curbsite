@@ -68,19 +68,6 @@ a {
   height: 5%;
 }
 
-.rounded-square {
-  position: relative;
-  width: 200px;
-  height: 200px;
-  border-style: solid;
-  border-radius: 30px;
-  border-width: 20px;
-  border-color: rgb(40, 45, 60);
-  overflow: hidden;
-  margin-left: 15%;
-  top: 12vh;
-}
-
 .infos {
   position: relative;
   width: 650px;
@@ -92,6 +79,7 @@ a {
   border-radius: 30px;
   border-width: 20px;
   border-color: rgb(40, 45, 60);
+  margin-top: 10%;
 }
 
 .infos .desc {
@@ -227,7 +215,6 @@ a {
     overflow-x: hidden;
   }
 
-  .rounded-square,
   .infos,
   .signup {
     width: 90%;
