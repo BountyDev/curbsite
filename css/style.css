@@ -234,11 +234,14 @@ a {
 }
 
 @media (max-width: 480px) {
-  .infos,
+  .infos {
+    margin-left: 10px;
+    margin-right: 10px; /* Remove left and right margin */
+  }
   .signup {
     width: 100%;
-    margin-left: 0;
-    margin-right: 0; /* Remove left and right margin */
+    margin-left: 10px;
+    margin-right: 10px; /* Remove left and right margin */
     border-width: 10px;
   }
 
